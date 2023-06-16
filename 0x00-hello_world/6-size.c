@@ -1,4 +1,7 @@
 #include <stdio.h>
+\**
+* main - printing size of
+* Return: 0 (Success)
 int main (void)
 {
 int i;
