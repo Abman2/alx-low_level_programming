@@ -1,8 +1,11 @@
 #include <stdio.h>
 \**
-* main - printing size of
+* main - A program for  printing size of various computer types
 * Return: 0 (Success)
-int main (void)
+* main: printing
+*/
+
+int main(void)
 {
 int i;
 char c;
