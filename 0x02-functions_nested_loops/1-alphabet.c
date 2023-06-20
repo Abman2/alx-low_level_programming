@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - print alphabet
  *
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-print_alphabet();
+#include "main.h"
 return (0);
 }
