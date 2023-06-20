@@ -1,7 +1,7 @@
 #include <stdio.h>
 void print_alphabet()
 {
-	int i = 0;
+	int i;
 	for (i = 97 ; i <= 122 ; i++)
 	{
 		putchar(i);
