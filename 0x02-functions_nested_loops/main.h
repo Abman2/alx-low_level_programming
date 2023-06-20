@@ -1,10 +1,10 @@
 #include <stdio.h>
 void print_alphabet()
 {
-	int i;
-	for (i = 97 ; i <= 122 ; i++)
-	{
+char i;
+for (i = 'a' ; i <= 'z' ; i++)
+{
 		putchar(i);
-	}
+}
 	putchar('\n');
 }
