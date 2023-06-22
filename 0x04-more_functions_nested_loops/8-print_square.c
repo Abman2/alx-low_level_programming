@@ -28,5 +28,6 @@ _putchar('\n');
 else if (size <= 0)
 {
 _putchar('\n');
+return;
 }
 }
