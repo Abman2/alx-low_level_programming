@@ -1,29 +1,30 @@
 #include "main.h"
-/**
-  * 
-  *
-  *
-  */
-  void print_line(int n){
- if (n <= 0)
- {
-_putchar('\n');
-}
-else if (n > 0)
-{
-for (int i = 1; i <= n; i++)
-{
-if (i != n)
-{
-_putchar('\\');
-}
-else if (i == n)
-{
-_putchar('\\');
-}
-}
-_putchar('\n'); 
-}
 
-}
+/**
+ *print_diagonal - draws diagonal
+ *
+ *@n: int type parameter
+ *Return: prints diagonal line
+ */
+
+void print_diagonal(int n)
+{
+	int i, j;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 0; i < n; i++)
+		{
+			for (j = 0; j < i; j++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+		}
+	}
 }
