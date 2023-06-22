@@ -10,8 +10,23 @@ int i;
 for (i = 1 ; i <= 100 ; i++)
 {
 if ( i % 3 == 0)
-printf("Fizz", i);
+{
+printf("Fizz ", i);
 
 }
+else if (i % 5 == 0)
+{
+printf("Buzz ", i);
+
+}
+else if ((i % 3 == 0) && (i % 5 == 0))
+{
+
+printf("FizzBuzz ", i);
+}
+printf("%d ", i);
+}
+printf("\n")
 return (0);
 }
+
