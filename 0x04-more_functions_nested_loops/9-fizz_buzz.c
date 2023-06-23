@@ -1,5 +1,4 @@
-#include "main.h"
-#include "stdio.h"
+iinclude "stdio.h"
 /**
  * main - making sense
  * Return: 0
@@ -29,7 +28,7 @@ printf("%d", i);
 }
 if (i != 100)
 {
-	printf(" ");
+printf(" ");
 }
 
 }
