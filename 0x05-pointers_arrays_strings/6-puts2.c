@@ -17,9 +17,8 @@ break;
 }
 }
 
-for (j = 0; j <= (i - 1); j++)
+for (j = 0; j <= (i - 1); j + 2)
 {
-j += 2;
 _putchar(str[j]);
 }
 _putchar('\n');
