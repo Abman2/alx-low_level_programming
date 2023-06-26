@@ -20,6 +20,6 @@ break;
 
 for (j = i; j >= 0; j--)
 {
-_putchar(j);
+_putchar(s[j]);
 }
 }
