@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* print_rev  - function of a function
+* rev_string  - function of a function
 * _puts: heh
 * Return: 0
 * @s: integer
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int i, j;
 
@@ -15,12 +15,10 @@ if (s[i] == '\0')
 {
 break;
 
-		}
+                }
 }
 
 for (j = i; j >= 0; j--)
 {
-_putchar(s[j]);
 }
-_putchar('\n');
 }
