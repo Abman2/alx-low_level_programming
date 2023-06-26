@@ -2,10 +2,19 @@
 /**
 * _strlen - function
 * @s: string
+* Return: i
 */
 int _strlen(char *s)
 {
-char i[10] = *s;
-strlen(i);
+	int i;
 
+	for (i = 0; i >= 0; i++)
+	{
+		if (s[i] == '\0')
+		{
+		break;
+		}
+
+	}
+return (i);
 }
