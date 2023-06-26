@@ -11,7 +11,7 @@ int i, j;
 
 for (i = 0; i >= 0; i++)
 {
-if (s[i] == '\0')
+if (str[i] == '\0')
 {
 break;
 }
@@ -20,7 +20,7 @@ break;
 for (j = 0; j <= (i - 1); j++)
 {
 j += 2;
-_putchar(s[j]);
+_putchar(str[j]);
 }
 _putchar('\n');
 }
