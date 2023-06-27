@@ -10,13 +10,10 @@ void rev_string(char *s)
 	int len, count, end;
 	char beg;
 
-	for (len = 0;s[len] != 0; len++)
+	for (len = 0; s[len] != 0; len++)
 	{
 	}
 	len--;
-
-
-	
 	for (count = 0; count <= len / 2; count++)
 	{
 		beg = s[count];
