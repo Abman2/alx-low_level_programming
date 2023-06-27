@@ -19,6 +19,6 @@ _putchar(' ');
 }
 _putchar(a[i]);
 }
-_putchar('\n')
+_putchar('\n');
 
 }
