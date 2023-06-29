@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "enter your commit message" commitmessage
+read -p "enter your commit message\n" commitmessage
 git add .
 git commit -m "$commitmessage"
 git push
