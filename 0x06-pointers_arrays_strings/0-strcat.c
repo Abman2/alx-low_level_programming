@@ -5,35 +5,29 @@
  *
  * @dest: Destination string
  * @src: source string
- * @n: integer n
+ *  integer n
  * Return: always 0
  */
 
 char *_strcat(char *dest, char *src)
 {
-        int i;
-        int j;
-        int k = 0;
-        int l;
-        int totalLength;
+int i;
+int j;
+int k = 0;
+int l;
+int totalLength;
 
-        for (i = 0; dest[i] != '\0'; i++)
-        {
-        }
-        for (j = 0; src[j] != '\0'; j++)
-        {
-        }
+for (i = 0; dest[i] != '\0'; i++)
+{
+}
+for (j = 0; src[j] != '\0'; j++)
+{
+totalLength = i + j;
 
-        totalLength = i + j;
-
-
-
-                for (l = i; l < totalLength; l++)
-                {
-                        dest[l] += src[k];
-                        k++;
-                }
-
-
-        return (dest);
+for (l = i; l < totalLength; l++)
+{
+dest[l] += src[k];
+k++;
+}
+return (dest);
 }
