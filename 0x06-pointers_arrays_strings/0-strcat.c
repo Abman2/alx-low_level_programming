@@ -1,33 +1,39 @@
 #include "main.h"
+
 /**
-* _strcat - function
-* @dest: parameter
-* @src: parameter
-* Return: dest
-*/
+ * _strcat - This function copies a string into another
+ *
+ * @dest: Destination string
+ * @src: source string
+ * @n: integer n
+ * Return: always 0
+ */
+
 char *_strcat(char *dest, char *src)
-	{
-		int i, j, m, k;
+{
+        int i;
+        int j;
+        int k = 0;
+        int l;
+        int totalLength;
 
-		for (i = 0; src[i] != '\0' ; i++)
-		{
-		}
-		for (j = 0; dest[j] != '\0' ; j++)
-		{
-		}
-		total = i + j;
-		for (k = i; k < total; k++)
-		{
-		}
-		dest[k] += src[m];
+        for (i = 0; dest[i] != '\0'; i++)
+        {
+        }
+        for (j = 0; src[j] != '\0'; j++)
+        {
+        }
 
-		return (dest);
-
+        totalLength = i + j;
 
 
 
+                for (l = i; l < totalLength; l++)
+                {
+                        dest[l] += src[k];
+                        k++;
+                }
 
 
-
-	}
-
+        return (dest);
+}

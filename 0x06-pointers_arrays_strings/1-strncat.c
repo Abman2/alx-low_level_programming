@@ -13,8 +13,8 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
-	int k;
-	int l = 0;
+	int k = 0;
+	int l;
 	int totalLength;
 
 	for (i = 0; dest[i] != '\0'; i++)
