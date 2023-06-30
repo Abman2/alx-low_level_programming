@@ -30,7 +30,7 @@ char *_strncat(char *dest, char *src, int n)
 
 		for (l = i; l < totalLength; l++)
 		{
-			if (k == i + n)
+			if (k == n)
 			{
 				break;
 			}
