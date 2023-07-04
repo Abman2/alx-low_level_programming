@@ -24,7 +24,7 @@ for (k = 0; k < i; k++)
 {
 for (l = 0; l < j; l++)
 {
-if (s[k] == accept[j])
+if (s[k] == accept[l])
 {
 sum++;
 }
