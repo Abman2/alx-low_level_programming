@@ -12,7 +12,7 @@ int i, j, k, l;
 int sum = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
-if (s[i] == ',')
+if (s[i] == ',' || s[i] == ' ')
 {
 break;
 }
