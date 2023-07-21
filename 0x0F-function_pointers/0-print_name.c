@@ -8,8 +8,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-if (array == NULL || action == NULL)
-		return;
+if (array != NULL && action != NULL)
 	f(name);
  
 
