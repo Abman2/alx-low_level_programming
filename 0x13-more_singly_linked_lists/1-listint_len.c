@@ -12,18 +12,11 @@ size_t listint_len(const listint_t *h)
 {
 	size_t count = 0;
 
-	if (h != NULL)
-	{
-		const listint_t *temp = NULL;
-
-		temp = malloc(sizeof(listint_t));
-		temp = h;
-
-		while (temp != NULL)
+		while (h != NULL)
 		{
 			count++;
-			temp = temp->next;
+			h = h->next;
 		}
-	}
+
 	return (count);
 }
